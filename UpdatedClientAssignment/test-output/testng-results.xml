@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-09T09:44:23 IST" name="Default suite" finished-at="2021-03-09T09:44:34 IST" duration-ms="10315">
+  <suite started-at="2021-03-09T20:06:26 IST" name="Default suite" finished-at="2021-03-09T20:06:34 IST" duration-ms="8086">
     <groups>
     </groups>
-    <test started-at="2021-03-09T09:44:23 IST" name="Default test" finished-at="2021-03-09T09:44:34 IST" duration-ms="10315">
-      <class name="stepDefinitions3.Assign9DataProvider">
-        <test-method signature="dataProvider(java.lang.String)[pri:0, instance:stepDefinitions3.Assign9DataProvider@15aab8c6]" started-at="2021-03-09T09:44:23 IST" name="dataProvider" data-provider="SearchProvider" finished-at="2021-03-09T09:44:28 IST" duration-ms="4644" status="PASS">
+    <test started-at="2021-03-09T20:06:26 IST" name="Default test" finished-at="2021-03-09T20:06:34 IST" duration-ms="8086">
+      <class name="runners.TestRunner1">
+        <test-method signature="data_provider(java.lang.String)[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:26 IST" name="data_provider" data-provider="SearchProvider" finished-at="2021-03-09T20:06:30 IST" duration-ms="3777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -17,8 +17,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataProvider -->
-        <test-method signature="dataProvider(java.lang.String)[pri:0, instance:stepDefinitions3.Assign9DataProvider@15aab8c6]" started-at="2021-03-09T09:44:28 IST" name="dataProvider" data-provider="SearchProvider" finished-at="2021-03-09T09:44:32 IST" duration-ms="4290" status="PASS">
+        </test-method> <!-- data_provider -->
+        <test-method signature="data_provider(java.lang.String)[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:30 IST" name="data_provider" data-provider="SearchProvider" finished-at="2021-03-09T20:06:31 IST" duration-ms="1019" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,8 +28,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataProvider -->
-        <test-method signature="dataProvider(java.lang.String)[pri:0, instance:stepDefinitions3.Assign9DataProvider@15aab8c6]" started-at="2021-03-09T09:44:32 IST" name="dataProvider" data-provider="SearchProvider" finished-at="2021-03-09T09:44:34 IST" duration-ms="1313" status="PASS">
+        </test-method> <!-- data_provider -->
+        <test-method signature="data_provider(java.lang.String)[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:31 IST" name="data_provider" data-provider="SearchProvider" finished-at="2021-03-09T20:06:31 IST" duration-ms="597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,8 +39,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataProvider -->
-      </class> <!-- stepDefinitions3.Assign9DataProvider -->
+        </test-method> <!-- data_provider -->
+        <test-method signature="getting_response_from_website_provided()[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:31 IST" name="getting_response_from_website_provided" finished-at="2021-03-09T20:06:34 IST" duration-ms="2592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting_response_from_website_provided -->
+        <test-method signature="getting_website()[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:34 IST" name="getting_website" finished-at="2021-03-09T20:06:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting_website -->
+        <test-method signature="validating_the_response_code_for_all_sites()[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:34 IST" name="validating_the_response_code_for_all_sites" finished-at="2021-03-09T20:06:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validating_the_response_code_for_all_sites -->
+      </class> <!-- runners.TestRunner1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
