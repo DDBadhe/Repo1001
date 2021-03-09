@@ -1,6 +1,6 @@
 package stepDefinitions3;
 
-import org.junit.Assert;
+import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -25,6 +25,7 @@ public class Assirtions4 {
 	@Then("validate status code and status line")
 	public void validate_status_code_and_status_line() throws Throwable{
 		Assert.assertEquals(200, response.getStatusCode());
+		
 		Assert.assertEquals("HTTP/1.1 200 OK", response.getStatusLine());
 		
 	}

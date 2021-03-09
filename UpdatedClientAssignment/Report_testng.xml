@@ -3,7 +3,7 @@
 <suite name="Report Suite">
 	<test thread-count="5" name="Report Test">
 		<classes>
-			<class name="runners.TestRunner3" />
+			<class name="stepDefinitions3.Assign9DataProvider" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

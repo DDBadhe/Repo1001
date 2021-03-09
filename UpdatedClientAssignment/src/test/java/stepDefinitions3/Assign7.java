@@ -3,7 +3,7 @@ package stepDefinitions3;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import org.junit.Assert;
+import org.testng.Assert;
 
 import io.cucumber.java.en.*;
 import io.restassured.RestAssured;
