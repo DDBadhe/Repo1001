@@ -1,5 +1,7 @@
 package stepDefinitions3;
 
+import org.testng.annotations.Test;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -11,7 +13,6 @@ public class RateApi2 {
 		System.out.println("API is given for foreign exchange");
 
 	}
-
 	@When("checking the url")
 	public void checking_the_url() throws Throwable{
 
@@ -19,7 +20,6 @@ public class RateApi2 {
 
 
 	}
-
 	@Then("getting the response")
 	public void getting_the_response() throws Throwable{
 
