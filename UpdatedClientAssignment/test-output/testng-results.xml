@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-09T20:06:26 IST" name="Default suite" finished-at="2021-03-09T20:06:34 IST" duration-ms="8086">
+  <suite started-at="2021-03-10T11:44:00 IST" name="Report_Suite" finished-at="2021-03-10T11:44:39 IST" duration-ms="39346">
     <groups>
     </groups>
-    <test started-at="2021-03-09T20:06:26 IST" name="Default test" finished-at="2021-03-09T20:06:34 IST" duration-ms="8086">
-      <class name="runners.TestRunner1">
-        <test-method signature="data_provider(java.lang.String)[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:26 IST" name="data_provider" data-provider="SearchProvider" finished-at="2021-03-09T20:06:30 IST" duration-ms="3777" status="PASS">
+    <test started-at="2021-03-10T11:44:00 IST" name="Report_Test" finished-at="2021-03-10T11:44:39 IST" duration-ms="39346">
+      <class name="runners.TestRunner2">
+        <test-method signature="api_is_given_for_foreign_exchange()[pri:0, instance:runners.TestRunner2@5acf93bb]" started-at="2021-03-10T11:44:00 IST" name="api_is_given_for_foreign_exchange" finished-at="2021-03-10T11:44:00 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_is_given_for_foreign_exchange -->
+        <test-method signature="checking_the_url()[pri:0, instance:runners.TestRunner2@5acf93bb]" started-at="2021-03-10T11:44:00 IST" name="checking_the_url" finished-at="2021-03-10T11:44:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking_the_url -->
+        <test-method signature="getting_the_response()[pri:0, instance:runners.TestRunner2@5acf93bb]" started-at="2021-03-10T11:44:00 IST" name="getting_the_response" finished-at="2021-03-10T11:44:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting_the_response -->
+      </class> <!-- runners.TestRunner2 -->
+      <class name="runners.TestRunner4">
+        <test-method signature="url_is_given()[pri:1, instance:runners.TestRunner4@6cd28fa7]" started-at="2021-03-10T11:44:15 IST" name="url_is_given" finished-at="2021-03-10T11:44:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url_is_given -->
+        <test-method signature="navigate_to_url_and_get_response()[pri:2, instance:runners.TestRunner4@6cd28fa7]" started-at="2021-03-10T11:44:15 IST" name="navigate_to_url_and_get_response" finished-at="2021-03-10T11:44:19 IST" duration-ms="3852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_url_and_get_response -->
+        <test-method signature="validate_status_code_and_status_line()[pri:3, instance:runners.TestRunner4@6cd28fa7]" started-at="2021-03-10T11:44:19 IST" name="validate_status_code_and_status_line" finished-at="2021-03-10T11:44:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_status_code_and_status_line -->
+      </class> <!-- runners.TestRunner4 -->
+      <class name="runners.TestRunner3">
+        <test-method signature="api_for_foreign_exchange()[pri:1, instance:runners.TestRunner3@7e7be63f]" started-at="2021-03-10T11:44:00 IST" name="api_for_foreign_exchange" finished-at="2021-03-10T11:44:00 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_for_foreign_exchange -->
+        <test-method signature="posted_with_correct_information()[pri:2, instance:runners.TestRunner3@7e7be63f]" started-at="2021-03-10T11:44:00 IST" name="posted_with_correct_information" finished-at="2021-03-10T11:44:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posted_with_correct_information -->
+        <test-method signature="validate_positive_response_code_received()[pri:3, instance:runners.TestRunner3@7e7be63f]" started-at="2021-03-10T11:44:00 IST" name="validate_positive_response_code_received" finished-at="2021-03-10T11:44:15 IST" duration-ms="15064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_positive_response_code_received -->
+      </class> <!-- runners.TestRunner3 -->
+      <class name="runners.TestRunner9">
+        <test-method signature="getting_website(java.lang.String)[pri:1, instance:runners.TestRunner9@1e04fa0a]" started-at="2021-03-10T11:44:29 IST" name="getting_website" data-provider="SearchProvider" finished-at="2021-03-10T11:44:31 IST" duration-ms="2038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -17,8 +59,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- data_provider -->
-        <test-method signature="data_provider(java.lang.String)[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:30 IST" name="data_provider" data-provider="SearchProvider" finished-at="2021-03-09T20:06:31 IST" duration-ms="1019" status="PASS">
+        </test-method> <!-- getting_website -->
+        <test-method signature="getting_website(java.lang.String)[pri:1, instance:runners.TestRunner9@1e04fa0a]" started-at="2021-03-10T11:44:31 IST" name="getting_website" data-provider="SearchProvider" finished-at="2021-03-10T11:44:35 IST" duration-ms="3848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,8 +70,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- data_provider -->
-        <test-method signature="data_provider(java.lang.String)[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:31 IST" name="data_provider" data-provider="SearchProvider" finished-at="2021-03-09T20:06:31 IST" duration-ms="597" status="PASS">
+        </test-method> <!-- getting_website -->
+        <test-method signature="getting_website(java.lang.String)[pri:1, instance:runners.TestRunner9@1e04fa0a]" started-at="2021-03-10T11:44:35 IST" name="getting_website" data-provider="SearchProvider" finished-at="2021-03-10T11:44:37 IST" duration-ms="2105" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,20 +81,58 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- data_provider -->
-        <test-method signature="getting_response_from_website_provided()[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:31 IST" name="getting_response_from_website_provided" finished-at="2021-03-09T20:06:34 IST" duration-ms="2592" status="PASS">
+        </test-method> <!-- getting_website -->
+        <test-method signature="getting_response_from_website_provided()[pri:2, instance:runners.TestRunner9@1e04fa0a]" started-at="2021-03-10T11:44:37 IST" name="getting_response_from_website_provided" finished-at="2021-03-10T11:44:39 IST" duration-ms="2168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getting_response_from_website_provided -->
-        <test-method signature="getting_website()[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:34 IST" name="getting_website" finished-at="2021-03-09T20:06:34 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getting_website -->
-        <test-method signature="validating_the_response_code_for_all_sites()[pri:0, instance:runners.TestRunner1@383bfa16]" started-at="2021-03-09T20:06:34 IST" name="validating_the_response_code_for_all_sites" finished-at="2021-03-09T20:06:34 IST" duration-ms="3" status="PASS">
+        <test-method signature="validating_the_response_code_for_all_sites()[pri:3, instance:runners.TestRunner9@1e04fa0a]" started-at="2021-03-10T11:44:39 IST" name="validating_the_response_code_for_all_sites" finished-at="2021-03-10T11:44:39 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validating_the_response_code_for_all_sites -->
-      </class> <!-- runners.TestRunner1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- runners.TestRunner9 -->
+      <class name="runners.TestRunner6">
+        <test-method signature="setting_up_environment()[pri:1, instance:runners.TestRunner6@4738a206]" started-at="2021-03-10T11:44:22 IST" name="setting_up_environment" finished-at="2021-03-10T11:44:22 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setting_up_environment -->
+        <test-method signature="response_is_invoked()[pri:2, instance:runners.TestRunner6@4738a206]" started-at="2021-03-10T11:44:22 IST" name="response_is_invoked" finished-at="2021-03-10T11:44:24 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response_is_invoked -->
+        <test-method signature="validation_for_response_code()[pri:3, instance:runners.TestRunner6@4738a206]" started-at="2021-03-10T11:44:24 IST" name="validation_for_response_code" finished-at="2021-03-10T11:44:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_for_response_code -->
+      </class> <!-- runners.TestRunner6 -->
+      <class name="runners.TestRunner5">
+        <test-method signature="setting_up_url()[pri:1, instance:runners.TestRunner5@614ca7df]" started-at="2021-03-10T11:44:19 IST" name="setting_up_url" finished-at="2021-03-10T11:44:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setting_up_url -->
+        <test-method signature="response_fetched()[pri:2, instance:runners.TestRunner5@614ca7df]" started-at="2021-03-10T11:44:19 IST" name="response_fetched" finished-at="2021-03-10T11:44:22 IST" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response_fetched -->
+        <test-method signature="validating_the_response_received()[pri:3, instance:runners.TestRunner5@614ca7df]" started-at="2021-03-10T11:44:22 IST" name="validating_the_response_received" finished-at="2021-03-10T11:44:22 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validating_the_response_received -->
+      </class> <!-- runners.TestRunner5 -->
+      <class name="runners.TestRunner7">
+        <test-method signature="api_is_given_for_foreign_exchange_website()[pri:1, instance:runners.TestRunner7@66d3eec0]" started-at="2021-03-10T11:44:24 IST" name="api_is_given_for_foreign_exchange_website" finished-at="2021-03-10T11:44:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_is_given_for_foreign_exchange_website -->
+        <test-method signature="when_posted_with_future_date()[pri:2, instance:runners.TestRunner7@66d3eec0]" started-at="2021-03-10T11:44:24 IST" name="when_posted_with_future_date" finished-at="2021-03-10T11:44:27 IST" duration-ms="2992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_posted_with_future_date -->
+        <test-method signature="validate_the_date_from_body()[pri:3, instance:runners.TestRunner7@66d3eec0]" started-at="2021-03-10T11:44:27 IST" name="validate_the_date_from_body" finished-at="2021-03-10T11:44:29 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_the_date_from_body -->
+      </class> <!-- runners.TestRunner7 -->
+    </test> <!-- Report_Test -->
+  </suite> <!-- Report_Suite -->
 </testng-results>

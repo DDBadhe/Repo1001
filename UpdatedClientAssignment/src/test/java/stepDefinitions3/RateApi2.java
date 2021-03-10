@@ -7,12 +7,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class RateApi2 {
+	@Test
 	@Given("API is given for foreign exchange")
 	public void api_is_given_for_foreign_exchange() throws Throwable{
 
 		System.out.println("API is given for foreign exchange");
 
 	}
+	@Test
 	@When("checking the url")
 	public void checking_the_url() throws Throwable{
 
@@ -20,6 +22,7 @@ public class RateApi2 {
 
 
 	}
+	@Test
 	@Then("getting the response")
 	public void getting_the_response() throws Throwable{
 

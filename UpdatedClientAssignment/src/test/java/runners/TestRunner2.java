@@ -4,11 +4,11 @@ package runners;
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import stepDefinitions3.exchangeSD3;
+import stepDefinitions3.RateApi2;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\resources\\Features", glue = {"stepDefinitions3"},monochrome = true)
-public class TestRunner3 extends exchangeSD3{
+public class TestRunner2 extends RateApi2{
 
 }
 

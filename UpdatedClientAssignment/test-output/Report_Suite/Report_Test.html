@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Report_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Report_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 10 11:44:00 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39346 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.TestRunner3.api_for_foreign_exchange()'><b>api_for_foreign_exchange</b><br>Test class: runners.TestRunner3</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner3@7e7be63f</td></tr>
+<tr>
+<td title='runners.TestRunner2.api_is_given_for_foreign_exchange()'><b>api_is_given_for_foreign_exchange</b><br>Test class: runners.TestRunner2</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner2@5acf93bb</td></tr>
+<tr>
+<td title='runners.TestRunner7.api_is_given_for_foreign_exchange_website()'><b>api_is_given_for_foreign_exchange_website</b><br>Test class: runners.TestRunner7</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner7@66d3eec0</td></tr>
+<tr>
+<td title='runners.TestRunner2.checking_the_url()'><b>checking_the_url</b><br>Test class: runners.TestRunner2</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner2@5acf93bb</td></tr>
+<tr>
+<td title='runners.TestRunner9.getting_response_from_website_provided()'><b>getting_response_from_website_provided</b><br>Test class: runners.TestRunner9</td>
+<td></td>
+<td>2</td>
+<td>runners.TestRunner9@1e04fa0a</td></tr>
+<tr>
+<td title='runners.TestRunner2.getting_the_response()'><b>getting_the_response</b><br>Test class: runners.TestRunner2</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner2@5acf93bb</td></tr>
+<tr>
+<td title='runners.TestRunner9.getting_website()'><b>getting_website</b><br>Test class: runners.TestRunner9<br>Parameters: https://www.google.com/</td>
+<td></td>
+<td>2</td>
+<td>runners.TestRunner9@1e04fa0a</td></tr>
+<tr>
+<td title='runners.TestRunner9.getting_website()'><b>getting_website</b><br>Test class: runners.TestRunner9<br>Parameters: https://in.yahoo.com/</td>
+<td></td>
+<td>3</td>
+<td>runners.TestRunner9@1e04fa0a</td></tr>
+<tr>
+<td title='runners.TestRunner9.getting_website()'><b>getting_website</b><br>Test class: runners.TestRunner9<br>Parameters: https://api.ratesapi.io/</td>
+<td></td>
+<td>2</td>
+<td>runners.TestRunner9@1e04fa0a</td></tr>
+<tr>
+<td title='runners.TestRunner4.navigate_to_url_and_get_response()'><b>navigate_to_url_and_get_response</b><br>Test class: runners.TestRunner4</td>
+<td></td>
+<td>3</td>
+<td>runners.TestRunner4@6cd28fa7</td></tr>
+<tr>
+<td title='runners.TestRunner3.posted_with_correct_information()'><b>posted_with_correct_information</b><br>Test class: runners.TestRunner3</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner3@7e7be63f</td></tr>
+<tr>
+<td title='runners.TestRunner5.response_fetched()'><b>response_fetched</b><br>Test class: runners.TestRunner5</td>
+<td></td>
+<td>2</td>
+<td>runners.TestRunner5@614ca7df</td></tr>
+<tr>
+<td title='runners.TestRunner6.response_is_invoked()'><b>response_is_invoked</b><br>Test class: runners.TestRunner6</td>
+<td></td>
+<td>2</td>
+<td>runners.TestRunner6@4738a206</td></tr>
+<tr>
+<td title='runners.TestRunner6.setting_up_environment()'><b>setting_up_environment</b><br>Test class: runners.TestRunner6</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner6@4738a206</td></tr>
+<tr>
+<td title='runners.TestRunner5.setting_up_url()'><b>setting_up_url</b><br>Test class: runners.TestRunner5</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner5@614ca7df</td></tr>
+<tr>
+<td title='runners.TestRunner4.url_is_given()'><b>url_is_given</b><br>Test class: runners.TestRunner4</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner4@6cd28fa7</td></tr>
+<tr>
+<td title='runners.TestRunner3.validate_positive_response_code_received()'><b>validate_positive_response_code_received</b><br>Test class: runners.TestRunner3</td>
+<td></td>
+<td>15</td>
+<td>runners.TestRunner3@7e7be63f</td></tr>
+<tr>
+<td title='runners.TestRunner4.validate_status_code_and_status_line()'><b>validate_status_code_and_status_line</b><br>Test class: runners.TestRunner4</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner4@6cd28fa7</td></tr>
+<tr>
+<td title='runners.TestRunner7.validate_the_date_from_body()'><b>validate_the_date_from_body</b><br>Test class: runners.TestRunner7</td>
+<td></td>
+<td>1</td>
+<td>runners.TestRunner7@66d3eec0</td></tr>
+<tr>
+<td title='runners.TestRunner9.validating_the_response_code_for_all_sites()'><b>validating_the_response_code_for_all_sites</b><br>Test class: runners.TestRunner9</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner9@1e04fa0a</td></tr>
+<tr>
+<td title='runners.TestRunner5.validating_the_response_received()'><b>validating_the_response_received</b><br>Test class: runners.TestRunner5</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner5@614ca7df</td></tr>
+<tr>
+<td title='runners.TestRunner6.validation_for_response_code()'><b>validation_for_response_code</b><br>Test class: runners.TestRunner6</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner6@4738a206</td></tr>
+<tr>
+<td title='runners.TestRunner7.when_posted_with_future_date()'><b>when_posted_with_future_date</b><br>Test class: runners.TestRunner7</td>
+<td></td>
+<td>2</td>
+<td>runners.TestRunner7@66d3eec0</td></tr>
+</table><p>
+</body>
+</html>
