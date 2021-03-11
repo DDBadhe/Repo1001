@@ -14,23 +14,29 @@ public class Assign9DataProvider {
 	String url;
 	
 	@Test(dataProvider="SearchProvider", priority = 1)
-	@Given("getting website")
-	public void getting_website(String site) throws Throwable{
+	public void fetching_data(String site) throws Throwable{
 		url = site;
-		System.out.println("getting URL");
+		this.getting_website();
 		this.getting_response_from_website_provided();
 		this.validating_the_response_code_for_all_sites();
 
 	}
 	
 	@Test(priority = 2)
+	@Given("getting website")
+	public void getting_website() throws Throwable{
+		System.out.println("getting URL");
+		
+	}
+	
+	@Test(priority = 3)
 	@When("getting response from website provided")
 	public void getting_response_from_website_provided() throws Throwable{
 		response = RestAssured.get(url);
 		System.out.println("response fetched");
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 4)
 	@Then("validating the response code for all sites")
 	public void validating_the_response_code_for_all_sites() throws Throwable{
 		Assert.assertEquals(200, response.getStatusCode());
