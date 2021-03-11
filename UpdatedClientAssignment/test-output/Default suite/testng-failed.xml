@@ -5,8 +5,7 @@
     <classes>
       <class name="stepDefinitions3.Assign9DataProvider">
         <methods>
-          <include name="getting_response_from_website_provided"/>
-          <include name="validating_the_response_code_for_all_sites"/>
+          <include name="getting_website"/>
         </methods>
       </class> <!-- stepDefinitions3.Assign9DataProvider -->
     </classes>
